@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>
+            Timer
+        </title>
+        <link rel="stylesheet" href="stylesheet.css" />
+    </head>
+    <body>
+        <header>
+            <h2>
+                Timer
+            </h2>
+        </header>
+        <div>
+            <h2>
+                Set timeer
+            </h2>
+            <table>
+                <tr>
+                    <td>
+                        <span>
+                            Minutes
+                        </span>
+                    </td>
+                    <td>
+                        <span>
+                            <input type="text" id="userMinutes" />
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Seconds</span>
+                    </td>
+                    <td>
+                        <input type="number" id="userSeconds" />
+                    </td>
+                </tr>
+            </table>
+            <span id = "minutes">00</span>
+            <span>:</span>
+            <span id = "seconds">00</span><br />
+            <input type = "button" value = "start" id = "start" />
+            <input type = "button" value = "reset" id = "reset" />
+        </div>
+        <audio src="timer music.mp3" id="timerMusic"></audio>
+    </body>
+    <script src="app.js"></script>
+</html>

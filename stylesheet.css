@@ -1,0 +1,52 @@
+* {
+    margin:0px;
+}
+header {
+    background:linear-gradient(45deg , black , deeppink);
+    color:white;
+    text-align: center;
+}
+body {
+    background-color:grey;
+}
+div {
+    margin:auto;
+    position:relative;
+    width:70%;
+    margin-top:5%;
+    text-align: center;
+    background-color:white;
+    border:1px solid black;
+}
+div span {
+    font-size:70;
+}
+div  h2 {
+    background:linear-gradient(45deg , black , #8c8cff);
+    color:white;
+}
+input[type="button"]
+{
+    width:15%;
+    border-radius:10px;
+    font-size:20;
+    color:white;
+}
+#start {
+    background-color:rgb(0, 204, 0);
+}
+#start:hover {
+    background-color: green;
+    cursor:pointer;
+}
+#reset {
+    background-color:rgb(155, 0, 0);
+}
+#reset:hover {
+    cursor:pointer;
+    background-color:rgb(75, 0, 0);
+}
+table {
+    width:100%;
+    margin-left:10%;
+}
